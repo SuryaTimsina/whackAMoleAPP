@@ -12,7 +12,7 @@ export default function Page() {
     const showInstructions = () => {
         Alert.alert(
             'Instructions',
-            '(1)Please select the defficulty level.(2)Know that the game will begian soon as you choose a level.(3)The players objective is to hit (tap) on the moles that pop out, which will add to your score.(4) Keep in mind you only have 3 LIVES!!!!.Playes loose lives by accidently clicking the hone insted of the mole .Thank You ! for playing',
+            '(1)Please select the difficulty level. (2)Know that the game will begin soon as you choose a level. (3)The player's objective is to hit (tap) on the moles that pop out, which will add to your score. (4) Keep in mind you only have 3 LIVES!!!!.Playes loose lives by accidently clicking the hone insted of the mole .Thank You ! for playing',
                 
             [{ text: 'OK', onPress: () => console.log('OK Pressed') }]
         );
